@@ -5,10 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "main",
+            "name": "pykrx",
             "type": "debugpy",
             "request": "launch",
-            "program": "main.py",
+            "program": "stock_pykrx.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "machine",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "stock_machine.py",
             "console": "integratedTerminal"
         }
     ]
